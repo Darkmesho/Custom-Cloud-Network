@@ -56,3 +56,4 @@ gateway_id =aws_internet_gateway.my_igw.id
 resource " aws_route_table_association" "my_association"{
 subnet_id = aws_subnet.my_subnet.id
 route_table_id =aws_route_table.my_routetable.id
+}
