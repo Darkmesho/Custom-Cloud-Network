@@ -32,3 +32,14 @@ resource "aws_internet_gateway" "my_ige"{
 # make a gate
 vpc_id = aws_vpc.the_great_wall_of_vpc.id
 }
+
+resource"aws_route_table" "my_routetable"{
+
+vpc_id =aws_vpc.the_great_wall_of_vpc.id
+
+route{
+cidr_block ="0.0.0.0/0"
+gateway_id =aws_internet_gateway.my_igw.id
+}
+}
+
