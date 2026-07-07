@@ -1,12 +1,23 @@
 Our story is about the compound "SIMPLE SECURE VPC" 
+
 First, if you want to build a compound, what is the first step?!
 
-True, it's the land. You should find a piece of land to build on, which represents the "Provider". Here, we tell AWS that we want to build our compound in the us-east-1 region.
+True, it's the land. You should find a piece of land to build on, which represents the "Provider". 
+Here, we tell AWS that we want to build our compound in the us-east-1 region.
 
-The second step is to build the wall to prevent anyone from getting in or out without our permission. We use a "VPC" like a wall for our compound, and its area is defined by cidr_block = "10.0.0.0/16". We can use a funny name like "The great wall of VPC".
+The second step is to build the wall to prevent anyone from getting in or out without our permission.
+We use a "VPC" like a wall for our compound, and its area is defined by cidr_block = "10.0.0.0/16". 
+We can use a funny name like "The great wall of VPC".
 
-Third, the parts of the compound are the "Subnets". The compound is very large, so we will divide it into parts by making the cidr blocks smaller. I want the people in the compound to be able to get out, so I will give them the ID of the gate. But wait, where is the gate?!
+Third, the parts of the compound are the "Subnets". 
+The compound is very large, so we will divide it into parts by making the cidr blocks smaller.
+I want the people in the compound to be able to get out, so I will give them the ID of the gate.
+But wait, where is the gate?!
 
-Fourth, "The gate" -> "Internet Gateway". At this moment, our compound is completely closed off by the "VPC". So, we will build a gate in the wall to connect to the internet.
+Fourth, "The gate" -> "Internet Gateway".
+At this moment, our compound is completely closed off by the "VPC". 
+So, we will build a gate in the wall to connect to the internet.
 
-Fifth, there is no system for moving around or doing anything?! To solve this, we will construct a map to prevent any problems. After that, we will make a copy for every street to ensure the people ("Users") don't get lost
+Fifth, there is no system for moving around or doing anything?!
+To solve this, we will construct a map to prevent any problems.
+After that, we will make a copy for every street to ensure the people ("Users") don't get lost
