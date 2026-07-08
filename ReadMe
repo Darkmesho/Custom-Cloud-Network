@@ -10,7 +10,8 @@ We use a "VPC" like a wall for our compound, and its area is defined by cidr_blo
 We can use a funny name like "The great wall of VPC".
 
 Third, the parts of the compound are the "Subnets". 
-The compound is very large, so we will divide it into parts by making the cidr blocks smaller.
+The compound is very large, so we will divide it into parts by making the cidr blocks smaller and faster.
+and divide the people by there role like the owner,citizens and the  guestes . 
 I want the people in the compound to be able to get out, so I will give them the ID of the gate.
 But wait, where is the gate?!
 
